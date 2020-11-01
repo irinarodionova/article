@@ -9,7 +9,7 @@ public class ChromeWebDriver {
     private static final String OS_TYPE = "os.arch";
     private static final String DRIVER = "webdriver.chrome.com.kollex.task.article.driver";
 
-    public static void setChromeDriver() {
+    public static void setDriver() {
         if (System.getProperty(OS).contains("Linux")
                 && System.getProperty(OS_TYPE).contains("64")) {
             System.setProperty(DRIVER, DRIVER_PATH_LINUX);
