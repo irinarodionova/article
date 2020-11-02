@@ -1,6 +1,5 @@
 package com.kollex.task.utils;
 
-import org.openqa.selenium.By;
 
 public class Constants {
 
@@ -14,3 +13,5 @@ public class Constants {
     public static String wikiSearchInput = "wikipedia.com";
     public static String articleName = "Giga Berlin";
 }
+
+//there is a problem to open wikipedia through google because of cookie alert, which protected from robots

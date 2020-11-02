@@ -24,10 +24,6 @@ public class SearchTest {
     @Test
     public void checkArticleMapData() throws InterruptedException {
         open(googleUrl);
-        try {
-            Selenide.switchTo().alert().accept();
-        } catch (NoAlertPresentException e) {
-        }
         searchWikiPage();
         searchArticle();
         openWikiMap();
