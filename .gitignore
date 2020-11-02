@@ -1,6 +1,4 @@
 .idea/
-*.iml
-*.png
-# modules.xml
-# .idea/misc.xml
-# *.ipr
+.iml
+.png
+build/
